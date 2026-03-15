@@ -1,0 +1,59 @@
+# אולשבסקי — Generative Engine Optimization Map
+
+> אני יועץ משכנתאות
+
+---
+
+## Pages
+
+### בית
+https://-67a87460.zappy5.app
+יועץ משכנתאות מומלץ שחוסך לכם אלפי שקלים. קבלו ליווי מקצועי למשכנתא הכי משתלמת עם תנאים אטרקטיביים. התחילו עכשיו!
+
+### תהליך
+https://-67a87460.zappy5.app/process
+תהליך ייעוץ משכנתאות שקוף ומקצועי בשלושה שלבים פשוטים. מאפיון צרכים ועד חתימה בבנק - נלווה אתכם לאורך כל הדרך לתנאים הטובים ביותר.
+
+### תעריפים והשוואות
+https://-67a87460.zappy5.app/rates
+גלו איזה בנק מציע את התנאים הטובים ביותר עבורכם. השוואת ריביות, מחזור משכנתא ואיחוד הלוואות - כל המידע במקום אחד לחיסכון מקסימלי.
+
+### צור קשר
+https://-67a87460.zappy5.app/contact
+קבעו פגישת ייעוץ ללא התחייבות עם יועץ משכנתאות מומלץ. נבדוק את המצב שלכם ונמצא את הפתרון הפיננסי הכי משתלם. צרו קשר היום!
+
+## Legal & Policy
+
+### Privacy Policy
+https://-67a87460.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-67a87460.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-67a87460.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About אולשבסקי
+אני יועץ משכנתאות
+
+## Target Audience
+- רוכשי דירה ראשונה
+- משקיעי נדל״ן
+- ממחזרי משכנתאות
+
+## Industry
+פיננסים ומשכנתאות
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://-67a87460.zappy5.app/sitemap.xml
+- **Robots.txt**: https://-67a87460.zappy5.app/robots.txt
