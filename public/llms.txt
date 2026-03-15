@@ -4,34 +4,34 @@
 
 ## Pages
 
-### בית
-https://example.com
+### משכנתא חכמה מתחילה בייעוץ נכון — אולשבסקי
+https://olshevsky-mortgage-and-economi.zappy5.app
 יועץ משכנתאות מומלץ שחוסך לכם אלפי שקלים. קבלו ליווי מקצועי למשכנתא הכי משתלמת עם תנאים אטרקטיביים. התחילו עכשיו!
 
-### אודותי
-https://example.com/about-us
+### כך תקבלו את המשכנתא הטובה ביותר — אולשבסקי
+https://olshevsky-mortgage-and-economi.zappy5.app/about-us
 תהליך ייעוץ משכנתאות שקוף ומקצועי בשלושה שלבים פשוטים. מאפיון צרכים ועד חתימה בבנק - נלווה אתכם לאורך כל הדרך לתנאים הטובים ביותר.
 
-### שירותי החברה
-https://example.com/company-services
+### השוואת תעריפי משכנתאות בכל הבנקים — אולשבסקי
+https://olshevsky-mortgage-and-economi.zappy5.app/company-services
 גלו איזה בנק מציע את התנאים הטובים ביותר עבורכם. השוואת ריביות, מחזור משכנתא ואיחוד הלוואות - כל המידע במקום אחד לחיסכון מקסימלי.
 
-### צור קשר
-https://example.com/contact
+### בואו נמצא ביחד את המשכנתא המושלמת — אולשבסקי
+https://olshevsky-mortgage-and-economi.zappy5.app/contact
 קבעו פגישת ייעוץ ללא התחייבות עם יועץ משכנתאות מומלץ. נבדוק את המצב שלכם ונמצא את הפתרון הפיננסי הכי משתלם. צרו קשר היום!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://olshevsky-mortgage-and-economi.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://olshevsky-mortgage-and-economi.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://olshevsky-mortgage-and-economi.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,5 +43,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://olshevsky-mortgage-and-economi.zappy5.app/sitemap.xml
+- **Robots.txt**: https://olshevsky-mortgage-and-economi.zappy5.app/robots.txt
