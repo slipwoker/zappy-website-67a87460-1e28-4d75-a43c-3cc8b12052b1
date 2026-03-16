@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://olshevsky-mortgage-and-economi.zappy5.app/sitemap.xml
+Sitemap: https://olshevski.co.il/sitemap.xml

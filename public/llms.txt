@@ -5,37 +5,37 @@
 ## Pages
 
 ### משכנתא חכמה מתחילה בייעוץ נכון — אולשבסקי
-https://olshevsky-mortgage-and-economi.zappy5.app
+https://olshevski.co.il
 יועץ משכנתאות מומלץ שחוסך לכם אלפי שקלים. קבלו ליווי מקצועי למשכנתא הכי משתלמת עם תנאים אטרקטיביים. התחילו עכשיו!
 
 ### כך תקבלו את המשכנתא הטובה ביותר — אולשבסקי
-https://olshevsky-mortgage-and-economi.zappy5.app/about-us
+https://olshevski.co.il/about-us
 תהליך ייעוץ משכנתאות שקוף ומקצועי בשלושה שלבים פשוטים. מאפיון צרכים ועד חתימה בבנק - נלווה אתכם לאורך כל הדרך לתנאים הטובים ביותר.
 
 ### השוואת תעריפי משכנתאות בכל הבנקים — אולשבסקי
-https://olshevsky-mortgage-and-economi.zappy5.app/company-services
+https://olshevski.co.il/company-services
 גלו איזה בנק מציע את התנאים הטובים ביותר עבורכם. השוואת ריביות, מחזור משכנתא ואיחוד הלוואות - כל המידע במקום אחד לחיסכון מקסימלי.
 
 ### בואו נמצא ביחד את המשכנתא המושלמת — אולשבסקי
-https://olshevsky-mortgage-and-economi.zappy5.app/contact
+https://olshevski.co.il/contact
 קבעו פגישת ייעוץ ללא התחייבות עם יועץ משכנתאות מומלץ. נבדוק את המצב שלכם ונמצא את הפתרון הפיננסי הכי משתלם. צרו קשר היום!
 
 ### מרכז ידע למשכנתאות
-https://olshevsky-mortgage-and-economi.zappy5.app/knowledge-center
+https://olshevski.co.il/knowledge-center
 אולשבסקי - מרכז ידע למשכנתאות
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://olshevsky-mortgage-and-economi.zappy5.app/privacy
+https://olshevski.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://olshevsky-mortgage-and-economi.zappy5.app/terms
+https://olshevski.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://olshevsky-mortgage-and-economi.zappy5.app/accessibility
+https://olshevski.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,5 +47,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://olshevsky-mortgage-and-economi.zappy5.app/sitemap.xml
-- **Robots.txt**: https://olshevsky-mortgage-and-economi.zappy5.app/robots.txt
+- **Sitemap**: https://olshevski.co.il/sitemap.xml
+- **Robots.txt**: https://olshevski.co.il/robots.txt
