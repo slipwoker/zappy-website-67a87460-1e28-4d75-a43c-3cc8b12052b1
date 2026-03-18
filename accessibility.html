@@ -3295,6 +3295,27 @@ html[dir="rtl"] body {
         // Setting textContent/innerHTML on the parent would destroy child elements.
         if (el.querySelector('[data-i18n]')) return;
 
+        // Preserve child SVGs (e.g., decorative dropdown arrows in nav links)
+        // by only replacing direct text nodes instead of overwriting all content.
+        if (el.querySelector('svg')) {
+          var nodes = el.childNodes;
+          var textUpdated = false;
+          for (var i = 0; i < nodes.length; i++) {
+            if (nodes[i].nodeType === 3 && nodes[i].textContent.trim()) {
+              if (!textUpdated) {
+                nodes[i].textContent = translation;
+                textUpdated = true;
+              } else {
+                nodes[i].textContent = '';
+              }
+            }
+          }
+          if (!textUpdated) {
+            el.insertBefore(document.createTextNode(translation), el.firstChild);
+          }
+          return;
+        }
+
         var hasNewlines = translation.indexOf(newlineChar) !== -1;
         var hasHtmlTags = htmlTagPattern.test(translation);
         var hasEntities = /&[a-zA-Z]+;|&#\d+;|&#x[0-9a-fA-F]+;/.test(translation);
