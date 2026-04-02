@@ -1811,9 +1811,9 @@ html[dir="rtl"] body {
 
 <section class="contact-contact-section" data-layout-spec="צור קשר-contact" id="zappy-section-1">
   <div class="contact-contact-container">
-    <div class="contact-contact-grid zappy-preserve-css-grid" id="zappy-auto-grid-1773589802155-spz82o" data-zappy-auto-grid="true" data-zappy-grid-align="start" data-original-item-width="565" data-original-gap="60px" style="display: grid; grid-template-columns: 564.667px 564.667px;"><div class="contact-form-column">
-        <h2 class="contact-form-title zappy-editable" data-i18n="contact_h2_2">שלחו הודעה</h2>
-        <p class="contact-form-intro zappy-editable" data-i18n="contact_p_21">מלאו את הפרטים הבסיסיים ואני אדריך אתכם בשלבים הבאים.</p>
+    <div class="contact-contact-grid zappy-preserve-css-grid" id="zappy-auto-grid-1773589802155-spz82o" data-zappy-auto-grid="true" data-zappy-grid-align="start" data-original-item-width="565" data-original-gap="60px" style="--zappy-grid-cols: 564.667px 564.667px; display: grid; grid-template-columns: 564.667px 564.667px;" data-zappy-explicit-columns="true"><div class="contact-form-column">
+        <h2 class="contact-form-title" data-i18n="contact_h2_2">שלחו הודעה</h2>
+        <p class="contact-form-intro" data-i18n="contact_p_21">מלאו את הפרטים הבסיסיים ואני אדריך אתכם בשלבים הבאים.</p>
         <form class="contact-form">
           <div class="form-group">
             <label for="contact-name" class="form-label" data-i18n="contact_label_51">שם מלא</label>
@@ -1831,38 +1831,46 @@ html[dir="rtl"] body {
             <label for="contact-message" class="form-label" data-i18n="contact_label_54">הודעה</label>
             <textarea id="contact-message" name="message" class="form-textarea" rows="5" required=""></textarea>
           </div>
-          <button type="submit" class="form-submit-btn zappy-editable" data-element-type="button" data-element-id="btn-1773589802106-19wh14jnr" data-native-element="true" data-i18n="contact_btn_50">שלח הודעה</button>
+          <!-- privacy-consent-fix -->
+<div class="privacy-consent" style="color: var(--text-dark, #333)">
+  <label class="privacy-consent-label">
+    <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required />
+    <span data-i18n="privacy_consent_text">קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
+  </label>
+</div>
+<script data-privacy-consent-validation>(function(){if(window._zpcv)return;window._zpcv=1;var _l=document.documentElement.lang||"";var isHe=_l==="he"||(_l!=="ar"&&document.documentElement.dir==="rtl");var isAr=_l==="ar";var valMsg=isHe?"יש לאשר את תנאי השימוש ומדיניות הפרטיות":isAr?"يرجى الموافقة على الشروط والأحكام وسياسة الخصوصية":"Please accept the Terms & Conditions and Privacy Policy";var cbs=document.querySelectorAll(".privacy-consent-checkbox");cbs.forEach(function(cb){cb.setCustomValidity(cb.checked?"":valMsg);cb.addEventListener("change",function(){cb.setCustomValidity(cb.checked?"":valMsg)})});document.addEventListener("submit",function(e){var f=e.target;if(!f||f.tagName!=="FORM")return;var cb=f.querySelector(".privacy-consent-checkbox");if(!cb||cb.checked)return;e.preventDefault();e.stopImmediatePropagation();if(typeof window.zappyNotify==="function"){window.zappyNotify(valMsg,"error")}else if(typeof window.showNotification==="function"){window.showNotification(valMsg,"error")}else{var ex=document.querySelectorAll(".zappy-privacy-error");ex.forEach(function(el){el.remove()});var n=document.createElement("div");n.className="zappy-privacy-error";n.style.cssText="position:fixed;top:20px;right:20px;max-width:400px;padding:14px 18px;background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:10000;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:14px";n.textContent=valMsg;document.body.appendChild(n);setTimeout(function(){if(n.parentElement)n.remove()},6000)}cb.focus()},true)})();</script>
+<button type="submit" class="form-submit-btn" data-element-type="button" data-element-id="btn-1773589802106-19wh14jnr" data-native-element="true" data-i18n="contact_btn_50">שלח הודעה</button>
         </form>
       </div><div class="contact-reassurance-column">
-        <h3 class="reassurance-title zappy-editable" data-i18n="contact_h3_7">מה קורה בהמשך</h3>
-        <p class="reassurance-text zappy-editable" data-i18n="contact_p_22">לאחר קבלת הפרטים, אבצע סקירה ראשונית של המצב שלכם ואחזור אליכם תוך 24 שעות.</p>
-        <p class="reassurance-text zappy-editable" data-i18n="contact_p_23">במידה ויהיו שאלות הבהרה, אצור קשר טלפוני או במייל כדי להבין את הצרכים בצורה מדויקת.</p>
-        <p class="reassurance-text zappy-editable" data-i18n="contact_p_24">בסיום, תקבלו תוכנית ברורה ומסודרת עם המלצות מותאמות אישית למצב הפיננסי שלכם.</p>
+        <h3 class="reassurance-title" data-i18n="contact_h3_7">מה קורה בהמשך</h3>
+        <p class="reassurance-text" data-i18n="contact_p_22">לאחר קבלת הפרטים, אבצע סקירה ראשונית של המצב שלכם ואחזור אליכם תוך 24 שעות.</p>
+        <p class="reassurance-text" data-i18n="contact_p_23">במידה ויהיו שאלות הבהרה, אצור קשר טלפוני או במייל כדי להבין את הצרכים בצורה מדויקת.</p>
+        <p class="reassurance-text" data-i18n="contact_p_24">בסיום, תקבלו תוכנית ברורה ומסודרת עם המלצות מותאמות אישית למצב הפיננסי שלכם.</p>
         <div class="contact-info-block">
-          <div class="contact-info-item zappy-editable" style="">
+          <div class="contact-info-item" >
             <svg data-no-icon-edit="true" aria-hidden="true" class="contact-info-icon" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2.5 6.66667L10 11.6667L17.5 6.66667M3.33333 15H16.6667C17.5871 15 18.3333 14.2538 18.3333 13.3333V6.66667C18.3333 5.74619 17.5871 5 16.6667 5H3.33333C2.41286 5 1.66667 5.74619 1.66667 6.66667V13.3333C1.66667 14.2538 2.41286 15 3.33333 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <a href="mailto:vadimolshevski@gmail.com" class="contact-info-link zappy-editable" data-original-href="mailto:vadimolshevski@gmail.com" data-i18n="contact_link_38">vadimolshevski@gmail.com</a>
+            <a href="mailto:vadimolshevski@gmail.com" class="contact-info-link" data-original-href="mailto:vadimolshevski@gmail.com" data-i18n="contact_link_38">vadimolshevski@gmail.com</a>
           </div>
-          <div class="contact-info-item zappy-editable" style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;">
+          <div class="contact-info-item" style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;">
             <svg data-no-icon-edit="true" aria-hidden="true" class="contact-info-icon" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2.5 4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5H6.96393C7.30747 2.5 7.61463 2.71959 7.72897 3.04483L9.03103 6.64897C9.15852 7.01438 9.01857 7.41827 8.69423 7.61644L6.875 8.75C7.91917 10.8375 9.6625 12.5808 11.75 13.625L12.8836 11.8058C13.0817 11.4814 13.4856 11.3415 13.851 11.469L17.4552 12.771C17.7804 12.8854 18 13.1925 18 13.5361V16.3333C18 17.2538 17.2538 18 16.3333 18H15C7.63401 18 1.66667 12.066 1.66667 4.66667V4.16667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <a href="0546250886" class="contact-info-link zappy-editable btn btn-ghost" data-original-href="0546250886" data-native-element="true" data-element-id="btn-1773589974451-o7xl022xj" data-element-type="button" style="outline: none; color: rgb(34, 197, 94) !important; border-color: transparent !important; background-color: transparent !important; background-image: none !important;">+972546250886</a>
+            <a href="0546250886" class="contact-info-link btn btn-ghost" data-original-href="0546250886" data-native-element="true" data-element-id="btn-1773589974451-o7xl022xj" data-element-type="button" style="outline: none; color: rgb(34, 197, 94) !important; border-color: transparent !important; background-color: transparent !important; background-image: none !important;">+972546250886</a>
           </div>
-          <div class="contact-info-item zappy-editable" style="">
+          <div class="contact-info-item" >
             <svg data-no-icon-edit="true" aria-hidden="true" class="contact-info-icon" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 10.8333C11.3807 10.8333 12.5 9.71405 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71405 8.61929 10.8333 10 10.8333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M10 17.5C13.3333 14.1667 16.6667 11.4761 16.6667 8.33333C16.6667 4.65143 13.6819 1.66667 10 1.66667C6.3181 1.66667 3.33333 4.65143 3.33333 8.33333C3.33333 11.4761 6.66667 14.1667 10 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <span class="contact-info-text zappy-editable" style="" data-i18n="contact_span_36">&nbsp;כרמיאל, Israel</span>
+            <span class="contact-info-text"  data-i18n="contact_span_36">&nbsp;כרמיאל, Israel</span>
           </div>
-          <p class="zappy-editable" data-i18n="contact_p_25"><a href="https://maps.google.com/?q=מחוז הצפון, כרמיאל, Israel" target="_blank" rel="noopener noreferrer" class="contact-map-link zappy-editable" data-original-href="https://maps.google.com/?q=מחוז הצפון, כרמיאל, Israel" data-i18n="contact_link_39">צפייה במפה</a>
+          <p class="zappy-editable" data-i18n="contact_p_25"><a href="https://maps.google.com/?q=מחוז הצפון, כרמיאל, Israel" target="_blank" rel="noopener noreferrer" class="contact-map-link" data-original-href="https://maps.google.com/?q=מחוז הצפון, כרמיאל, Israel" data-i18n="contact_link_39">צפייה במפה</a>
         </p>
           
-          <div class="contact-info-item zappy-editable" style="" data-element-id="element-ai-1773664736685-h8k2m9" data-element-type="business-hours">
-            <h3 class="reassurance-title zappy-editable" data-i18n="contact_h3_8">שעות פעילות</h3>
+          <div class="contact-info-item"  data-element-id="element-ai-1773664736685-h8k2m9" data-element-type="business-hours">
+            <h3 class="reassurance-title" data-i18n="contact_h3_8">שעות פעילות</h3>
             <ul style="list-style: none; padding: 0; margin: 0;">
               <li style="margin-bottom: 0.5rem;" data-i18n="contact_li_55">יום שני: 09:00 - 17:00</li>
               <li style="margin-bottom: 0.5rem;" data-i18n="contact_li_56">יום שלישי: 09:00 - 17:00</li>
@@ -1892,7 +1900,7 @@ html[dir="rtl"] body {
       <p data-i18n="contact_p_26">תהליך עבודה מרחוק עם תקשורת ברורה ושקיפות מלאה. אני זמין לפגישות אישיות, שיחות טלפון ותכתובות דיגיטליות – בהתאם למה שנוח לך.</p>
     </div>
 
-    <div class="contact-locations-grid zappy-preserve-css-grid" id="zappy-auto-grid-1773589802160-tnxfjj" data-zappy-auto-grid="true" data-original-item-width="380" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr));" data-zappy-explicit-columns="true">
+    <div class="contact-locations-grid zappy-preserve-css-grid" id="zappy-auto-grid-1773589802160-tnxfjj" data-zappy-auto-grid="true" data-original-item-width="380" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr))" data-zappy-explicit-columns="true">
       <div class="contact-locations-card" data-grid-item-index="0">
         <h3 data-i18n="contact_h3_9">אזור השירות</h3>
         <p data-i18n="contact_p_27">אני משרת לקוחות בכל רחבי הארץ, עם התמחות באזור המרכז והשרון. פגישות אישיות אפשריות במשרדי או במיקום נוח עבורך. שירות מרחוק זמין לכל הארץ עם תמיכה מלאה בווידאו, טלפון ומייל.</p>
@@ -1908,7 +1916,7 @@ html[dir="rtl"] body {
         <p data-i18n="contact_p_29">ימים א'-ה' בין השעות 9:00-19:00, עם גמישות לפגישות ערב לפי תיאום מראש. זמינות מוגבלת בימי שישי עד 13:00. במקרי דחיפות או סגירת עסקה, אני זמין גם מחוץ לשעות הרגילות.</p>
       </div>
 
-      <div class="contact-locations-image-wrapper zappy-grid-item-media-only" data-grid-item-index="3" style="">
+      <div class="contact-locations-image-wrapper zappy-grid-item-media-only" data-grid-item-index="3" >
         <img data-placeholder="contact-locations-image-1" data-context="Professional mortgage advisor office interior in Israel - clean modern meeting room with natural light, wooden desk, comfortable chairs, laptop and documents, warm and trustworthy atmosphere, neutral tones" width="600" height="400" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%9E%D7%A9%D7%A8%D7%93%20%D7%99%D7%95%D7%A2%D7%A5%20%D7%9E%D7%A9%D7%9B%D7%A0%D7%AA%D7%90%D7%95%D7%AA%20-%20%D7%97%D7%93%D7%A8%20%D7%A4%D7%92%D7%99%D7%A9%D7%95%D7%AA%20%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%3C/text%3E%3C/svg%3E" alt="משרד יועץ משכנתאות - חדר פגישות מקצועי" data-element-type="image" data-element-id="img-1773589802110-neh4oxr8i" class="zappy-editable-image" data-resize-handler-attached="true" data-original-position="static" style="position: relative; object-position: 50% 50%;" data-i18n-alt="contact_alt_73">
       </div><div class="contact-locations-image-wrapper zappy-grid-item-media-only" style="background-color: rgb(255, 255, 255) !important; overflow: hidden !important; height: 374.823px !important;" data-grid-item-index="4" data-zappy-original-height="374.82293701171875">
         <a data-zappy-click-action="link" href="/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: contents;"><div data-zappy-zoom-wrapper="true" data-element-id="new-grid-img-1773589904944-0-0w27dia1x" data-element-type="image" data-zappy-zoom-wrapper-width="379px" data-zappy-zoom-wrapper-height="373px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 379px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 373px !important; display: block !important; cursor: pointer;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-click-action="link"><img data-placeholder="image-placeholder" data-context="Professional mortgage advisor office interior in Israel - clean modern meeting room with natural light, wooden desk, comfortable chairs, laptop and documents, warm and trustworthy atmosphere, neutral tones" width="600" height="400" src="/assets/business-general-service-upload-1773589923889.webp" alt="Image placeholder" data-element-type="image" data-element-id="new-grid-img-1773589904944-0-0w27dia1x" class="zappy-editable-image" data-original-position="static" style="position: absolute !important; object-position: 75% 8%; cursor: pointer; width: 100% !important; height: 177.224% !important; object-fit: cover !important; max-width: none !important; display: block; margin-top: 0px !important; margin-bottom: 0px !important; left: 0% !important; top: -6.17794% !important; max-height: none !important;" id="new-grid-img-1773589904944-0-0w27dia1x" data-ai-slot="grid-item-image" data-zappy-original-width="379.1145935058594" data-zappy-original-height="373.4895935058594" data-zappy-zoom="1" data-zappy-click-action="link" data-i18n-alt="contact_alt_74"></div></a>
@@ -2584,6 +2592,7 @@ html[dir="rtl"] body {
       "accessibility_nav_69": "מרכז ידע",
       "accessibility_nav_70": "צור קשר",
       "legal_privacy_div_42": "עדכון אחרון: 15.3.2026",
+      "privacy_consent_text": "קראתי ואני מסכים/ה ל<a href=\"/terms\" target=\"_blank\">תנאי השימוש</a> ול<a href=\"/privacy\" target=\"_blank\">מדיניות הפרטיות</a>",
       "accessibility_link_23": "vadimolshevski@gmail.com",
       "accessibility_link_24": "אודותי",
       "accessibility_link_25": "שירותי החברה",
@@ -4222,6 +4231,7 @@ html[dir="rtl"] body {
       "accessibility_nav_69": "Knowledge Center",
       "accessibility_nav_70": "Contact",
       "legal_privacy_div_42": "Last updated: 15.3.2026",
+      "privacy_consent_text": "I have read and agree to the <a href=\"/terms\" target=\"_blank\">Terms &amp; Conditions</a> and <a href=\"/privacy\" target=\"_blank\">Privacy Policy</a>",
       "accessibility_link_23": "vadimolshevski@gmail.com",
       "accessibility_link_24": "About Me",
       "accessibility_link_25": "Company Services",
@@ -5512,16 +5522,59 @@ html[dir="rtl"] body {
 
     <script>
     (function(){
-      if(window.innerWidth>768)return;
-      function fixZW(){
+      var _applied=false;
+      function fixDesktopWrappers(){
+        if(window.innerWidth<=768)return;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var mode=w.getAttribute('data-zappy-zoom-wrapper-width-mode');
+          if(mode==='full'||mode==='grid-responsive')return;
+          var storedW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'));
+          if(!storedW||!isFinite(storedW))return;
+          var parent=w.parentElement;
+          if(!parent)return;
+          var parentW=parent.getBoundingClientRect().width;
+          if(parentW>0&&storedW<parentW*0.6&&storedW<=400){
+            var ratio=storedW/parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height')||'1');
+            var newW=Math.round(Math.min(parentW,800));
+            var newH=Math.round(newW/ratio);
+            w.style.setProperty('width',newW+'px','important');
+            w.style.setProperty('height',newH+'px','important');
+          }
+        });
+      }
+      function applyMobile(){
+        if(_applied)return;_applied=true;
         document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
           var cw=w.style.getPropertyValue('width');
           if(!cw||cw==='100%')return;
+          if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
+          var img=w.querySelector('img');
+          if(!img)return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
           w.style.setProperty('width','100%','important');
           w.style.setProperty('max-width','100%','important');
-          w.style.setProperty('height','auto','important');
-          var img=w.querySelector('img');
-          if(img){
+          if(mobileSrc)img.src=mobileSrc;
+          var pos=mobilePos||img.style.getPropertyValue('object-position')||'50% 50%';
+          if(mobileZoom>1){
+            var wH=w.getAttribute('data-zappy-zoom-wrapper-height');
+            w.style.setProperty('height',wH||'200px','important');
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('min-height','100%','important');
+            img.style.setProperty('max-width','none','important');
+            img.style.setProperty('max-height','none','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+            img.style.setProperty('object-position',pos,'important');
+            img.style.setProperty('transform','scale('+mobileZoom+')','important');
+            img.style.setProperty('transform-origin',pos,'important');
+          }else{
+            w.style.setProperty('height','auto','important');
             img.style.setProperty('position','relative','important');
             img.style.setProperty('width','100%','important');
             img.style.setProperty('height','auto','important');
@@ -5530,11 +5583,56 @@ html[dir="rtl"] body {
             img.style.setProperty('object-fit','cover','important');
             img.style.setProperty('left','0','important');
             img.style.setProperty('top','0','important');
+            img.style.setProperty('transform','none','important');
+            if(mobilePos)img.style.setProperty('object-position',pos,'important');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          if(img.closest('[data-zappy-zoom-wrapper="true"]'))return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          if(mobileSrc)img.src=mobileSrc;
+          if(mobilePos)img.style.setProperty('object-position',mobilePos,'important');
+          if(mobileZoom>1){
+            img.style.setProperty('transform','scale('+mobileZoom+')','important');
+            img.style.setProperty('transform-origin',mobilePos||'50% 50%','important');
+            var p=img.parentElement;
+            if(p)p.style.setProperty('overflow','hidden','important');
           }
         });
       }
-      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fixZW);
-      else setTimeout(fixZW,50);
+      function revertDesktop(){
+        if(!_applied)return;_applied=false;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(w._zappyDesktop&&w._zappyDesktop.wStyle!=null){w.setAttribute('style',w._zappyDesktop.wStyle);}
+          var img=w.querySelector('img');
+          if(img&&img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          if(img.closest('[data-zappy-zoom-wrapper="true"]'))return;
+          if(img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        fixDesktopWrappers();
+      }
+      function init(){
+        var mq=window.matchMedia('(max-width:768px)');
+        function onChange(e){if(e.matches)applyMobile();else revertDesktop();}
+        if(mq.matches)applyMobile();
+        else fixDesktopWrappers();
+        try{mq.addEventListener('change',onChange);}catch(e){mq.addListener(onChange);}
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
+      else setTimeout(init,50);
     })();
     </script>
 </body>
